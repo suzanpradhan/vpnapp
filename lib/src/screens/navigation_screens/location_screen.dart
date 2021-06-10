@@ -97,14 +97,23 @@ class _LocationScreenState extends State<LocationScreen> {
                           actions: [
                             Row(
                               children: [
-                                // Text("Add Server",
-                                //     style: TextStyle(
-                                //         fontFamily: "GilroyLight",
-                                //         fontSize: 14,
-                                //         color: CustomColors.black)),
+                                InkWell(
+                                  onTap: () {},
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                        color: CustomColors.black,
+                                        borderRadius: BorderRadius.circular(4)),
+                                    padding: EdgeInsets.symmetric(
+                                        horizontal: 10, vertical: 6),
+                                    child: Text("Speed Test",
+                                        style: TextStyle(
+                                            fontFamily: "GilroyLight",
+                                            fontSize: 12,
+                                            color: CustomColors.white)),
+                                  ),
+                                ),
                                 Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                      horizontal: 20),
+                                  padding: const EdgeInsets.only(right: 20),
                                   child: IconButton(
                                       onPressed: () {
                                         (MediaQuery.of(context).size.width <

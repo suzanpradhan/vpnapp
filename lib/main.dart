@@ -8,7 +8,7 @@ void main() {
     final win = appWindow;
     final initialSize = Size(800, 650);
     win.minSize = initialSize;
-    win.maxSize = initialSize;
+    // win.maxSize = initialSize;
     win.size = initialSize;
     win.alignment = Alignment.center;
     win.title = "VTRSpeed";
