@@ -97,21 +97,13 @@ class _LocationScreenState extends State<LocationScreen> {
                           actions: [
                             Row(
                               children: [
-                                InkWell(
-                                  onTap: () {},
-                                  child: Container(
-                                    decoration: BoxDecoration(
-                                        color: CustomColors.black,
-                                        borderRadius: BorderRadius.circular(4)),
-                                    padding: EdgeInsets.symmetric(
-                                        horizontal: 10, vertical: 6),
-                                    child: Text("Speed Test",
-                                        style: TextStyle(
-                                            fontFamily: "GilroyLight",
-                                            fontSize: 12,
-                                            color: CustomColors.white)),
-                                  ),
-                                ),
+                                IconButton(
+                                    onPressed: () {},
+                                    icon: Icon(
+                                      EvaIcons.flash,
+                                      color: CustomColors.black,
+                                      size: 20,
+                                    )),
                                 Padding(
                                   padding: const EdgeInsets.only(right: 20),
                                   child: IconButton(
