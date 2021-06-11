@@ -415,7 +415,7 @@ class _HomePage2State extends State<HomePage2> {
                                                           fontSize: 16),
                                                     ),
                                                     Text(
-                                                      "112ms",
+                                                      "123kbps",
                                                       style: TextStyle(
                                                           color: CustomColors
                                                               .white,
